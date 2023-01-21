@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.inputbox{
+/* Text Field * */
+position: absolute;
+width: 129px;
+height: 29px;
+left: 52px;
+top: 49px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #000000;
+}
+.star
+{
+color: #FF0000;
+}
+::-webkit-input-placeholder{
+    color:#808080;
+
+}
+h2{
+    margin: 16;
+}
+/* Select Field */
+.icon{
+    color:red;
+}
+.input{
+display: flex;
+position: absolute;
+width: 133px;
+height: 29px;
+left: 55px;
+top: 203px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+
+}
+
+/* Text Area */
+.textarea{
+
+    box-sizing: border-box;
+position: absolute;
+width: 716px;
+height: 197px;
+left: 61px;
+top: 402px;
+border: 1px solid #808080;
+border: 1px solid #808080;
+}
+.label{
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 58px;
+    top: 357px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #000000;
+
+}
+
+.material-icons {
+  font-variation-settings:
+  position: absolute;
+  left: 50%;
+  right: 49.96%;
+  top: 33.33%;
+  bottom: 66.67%;
+  border: 2px solid #FFFFFF;
+}
+/* .lang{
+    font-family: inter;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 29px;
+    line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+}
+.select {
+font-family: inter;
+font-style: Regular;
+font-size: 24px;
+line-height: 29px;
+line-height: 100%;
+Align: Left;
+Vertical-align: Top;
+}
+  */
+  .material-icons{
+    /* X: 12px;
+    Y: 8px; */
+    width: 0.01px;
+    height: 0px;
+    /* Align: Center;
+    Join: Round;
+    Cap: Round; */
+    } 
+    
+    /* .checkbox{
+      color: solid skyblue;
+    } */
+    
+    .container form .user{
+       display:flex; 
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: calc(100 / 3 - 20px);
+    
+    }
+     
+    .form.user.input-box{
+      margin: 20px 0 12px 0;
+      /* width: calc(100 / 2 - 20px); */
+    }
+    
+    .user.input-box input{
+    height:45px;
+    width:100%;
+    }
+    
